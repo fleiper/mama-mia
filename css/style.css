@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/mario-1558068_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{    
+    text-decoration: ;
+    color: black;
+    font-size: 1.3rem;
+    margin-right: 25px;
+    font-size: 1.5rem;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+.menu{
+    background-color: #e33a6f9d;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+h1{
+text-decoration: none;
+    color: #ad0909;
+    font-size: 1.3rem;
+    margin-right: 25px;
+    font-size: 1.5rem;}
+.logo{
+    width: 100px;
+    margin-left: 30px;
+
+}
+.teste {
+    text-align: center;
+}
+
+@media screen and (max-width:700px){
+    .menu{
+        visibility: hidden;
+    }
+    
+}
+
